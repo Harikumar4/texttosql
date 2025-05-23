@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+backend/.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/package-lock.json
+
+# Backend specific
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/data.db
+backend/backend-chatbot/
+backend/old_requirements.txt 

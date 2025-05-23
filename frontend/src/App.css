@@ -1,0 +1,87 @@
+/* Base layout */
+.App {
+  text-align: center;
+}
+
+.min-h-screen {
+  position: relative;
+  background-color: #f7efe1;  /* very pale beige */
+  color: #3e2f1c;              /* dark brown text */
+}
+
+/* Chat container */
+.bg-black {
+  background-color: #e3d7c6;   /* muted parchment */
+  border: 2px solid #c8b694;
+  box-shadow: 0 0 15px rgba(200, 182, 148, 0.3);
+}
+
+/* User message */
+.bg-purple-900 {
+  background-color: #d6c1b0;   /* soft sandy rose */
+  color: #3e2f1c;
+}
+
+/* Bot message */
+.bg-gray-800 {
+  background-color: #f0e6d2;   /* light cream */
+  color: #4b3923;
+}
+
+/* Input styling */
+input {
+  background-color: #f9f5ee;   /* off-white */
+  color: #3e2f1c;
+  border: 2px solid #c8b694;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+input:focus {
+  box-shadow: 0 0 10px rgba(200, 182, 148, 0.5);
+  outline: none;
+}
+
+/* Send button */
+button {
+  background-color: #d7bfae;   /* pastel beige with a hint of rose */
+  color: #2f2415;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #cbb3a0;   /* slightly deeper pastel */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5dac3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d7bfae;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cbb3a0;
+}
+
+/* Text selection */
+::selection {
+  background: #d7bfae;
+  color: #fff;
+}
+
+/* Font */
+body {
+  font-family: 'Georgia', serif;
+}
